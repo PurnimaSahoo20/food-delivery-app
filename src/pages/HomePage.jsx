@@ -88,7 +88,7 @@ export default function HomePage() {
           Categories
         </h2>
 
-        <div className="grid grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
           {categories.map((category) => (
             <CategoryCard key={category.id} category={category} />
           ))}
