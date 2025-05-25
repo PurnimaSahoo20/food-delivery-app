@@ -32,7 +32,7 @@ A fully responsive food delivery web application built with **React.js** and **T
 
 - **Profile Page**
   - Displays user info with updated styling.
-  - Username changed from `John Doe` to `Purnima`.
+ 
 
 ## Technologies Used
 
