@@ -5,6 +5,7 @@ import FoodCard from "../components/FoodCard"
 import Button from "../components/Button"
 import { useCart } from "../context/CartContext"
 import { categories, foodItems } from "../data/mockData"
+import SearchBar from "../components/SearchBar"
 
 export default function MenuPage() {
   const [searchParams] = useSearchParams()
@@ -75,6 +76,12 @@ export default function MenuPage() {
             Filter
           </Button>
         </div>
+      </div>
+
+      
+      {/* Search Bar */}
+      <div className="p-4 bg-white border-b">
+         <SearchBar placeholder="Search for food..." />
       </div>
 
       {/* Category Filter */}

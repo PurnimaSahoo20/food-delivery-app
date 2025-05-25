@@ -24,8 +24,9 @@ export default function ProfilePage() {
           <div className="w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
             <span className="text-white text-2xl font-bold">JD</span>
           </div>
-          <h2 className="text-xl font-bold">John Doe</h2>
-          <p className="text-gray-600">john.doe@example.com</p>
+          <h2 className="text-xl font-semibold">Purnima</h2>
+
+          <p className="text-gray-600">purnima@example.com</p>
           <p className="text-sm text-gray-500 mt-2">Member since Jan 2024</p>
         </Card>
       </div>

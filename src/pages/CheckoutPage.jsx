@@ -32,7 +32,7 @@ export default function CheckoutPage() {
 
     // Simulate order placement
     setTimeout(() => {
-      clearCart()
+      
       setIsPlacingOrder(false)
       navigate("/order-success")
     }, 2000)

@@ -9,7 +9,7 @@ export const categories = [
     id: 2,
     name: "Pizza",
     slug: "pizza",
-    image: "/images/categories/pizza.jpg",
+    image: "/images/food/margherita-pizza.jpg",
   },
   {
     id: 3,
@@ -35,6 +35,22 @@ export const categories = [
     slug: "asian",
     image: "/images/categories/asian.jpg",
   },
+  {
+  id: 7,
+  name: "Sushi",
+  slug:"sushi",
+  
+  image: "/images/categories/sushi.jpg",
+  
+},
+{
+  id: 8,
+  name: "Pasta",
+   slug:"pasta",
+  image: "/images/categories/pasta.jpg",
+ 
+},
+
 ]
 
 export const foodItems = [
@@ -128,4 +144,23 @@ export const foodItems = [
     image: "/images/food/orange-juice.jpg",
     featured: false,
   },
+  {
+  id: 8,
+  name: "Pasta",
+  description: "Testy and spicy Pasta.",
+  price: 9.49,
+  category: "pasta",
+  image: "/images/categories/pasta.jpg",
+  featured: true,
+},
+ {
+  id: 7,
+  name: "Sushi",
+ description: "Testy Sushi.",
+  price: 9.49,
+  category: "sushi",
+  image: "/images/categories/sushi.jpg",
+  featured: true,
+},
+
 ]
